@@ -15,12 +15,15 @@ vim.cmd("syntax on")                    -- Enable syntax highlighting
 vim.cmd("filetype plugin indent on")
 
 
+
 --                       WINDOWS
 require("config.windows")
 --                       BUFFERS
 require("config.buffers")
 --                       TERMINAL 
 require("config.terminal")
+--                       MARKS 
+require("config.marks")                      
 --                       TABS 
 require("config.tabs")
 --                       FOLDS
