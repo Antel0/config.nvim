@@ -1,16 +1,16 @@
 ------------------------------------------------------- Nvim Native -------------------------------------------------------
 --   General Settings
 vim.opt.tags = "./tags;,tags;"
-vim.opt.number = true            -- show line numbers
-vim.opt.relativenumber = true    -- relative numbers
-vim.opt.wrap = false             -- no line wrapping
-vim.opt.tabstop = 4              -- tab width
+vim.opt.number = true                   -- show line numbers
+vim.opt.relativenumber = true           -- relative numbers
+vim.opt.wrap = false                    -- no line wrapping
+vim.opt.tabstop = 4                     -- tab width
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = true         -- use spaces instead of tabs
+vim.opt.expandtab = true                -- use spaces instead of tabs
 vim.opt.smartindent = true
-vim.opt.clipboard = "unnamedplus" -- use system clipboard
-vim.opt.cursorline = true        -- highlight current line
-vim.opt.showmatch = true         -- highlight matching parentheses
+vim.opt.clipboard = "unnamedplus"       -- use system clipboard
+vim.opt.cursorline = true               -- highlight current line
+vim.opt.showmatch = true                -- highlight matching parentheses
 vim.cmd("syntax on")                    -- Enable syntax highlighting 
 vim.cmd("filetype plugin indent on")
 
