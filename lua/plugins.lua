@@ -24,7 +24,7 @@ require('packer').startup(function(use)
             }
         })
         -- Load your keymaps after setup is called
-        require("config.harpoon_config") 
+        require("config.harpoon") 
       end    }
     --                             Oil 
     use{
@@ -150,6 +150,8 @@ require('packer').startup(function(use)
     }
     --                             Colorscheme
     use { "catppuccin/nvim", as = "catppuccin" }
+    --                             Tail
+    -- use { "thgrass/tail.nvim" }
 end)
 
 

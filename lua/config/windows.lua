@@ -1,3 +1,5 @@
+-- local float = require("float")
+
 local window_lead = "<C-w>"
 vim.keymap.set("n", window_lead .. "a", ":vnew<CR>", {noremap = true, silent = false })      -- Open Vertical Window
 vim.keymap.set("n", window_lead .. "s", ":vsplit<CR>", { noremap = true, silent = false })   -- Splits Window Vertically
