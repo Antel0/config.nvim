@@ -28,6 +28,11 @@ vim.lsp.config('lua_ls', {
 vim.lsp.config('pyright', {
     capabilities = capabilities,
 })
+
+-- Set up Golan
+vim.lsp.config('gopls', {
+    capabilities = capabilities,
+})
 -- Set up Clangd (C/C++)
 vim.lsp.config('clangd', {
     capabilities = capabilities,

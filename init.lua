@@ -11,6 +11,7 @@ vim.opt.smartindent = true
 vim.opt.clipboard = "unnamedplus"       -- use system clipboard
 vim.opt.cursorline = true               -- highlight current line
 vim.opt.showmatch = true                -- highlight matching parentheses
+vim.opt.cinoptions:append("#1")         -- Allows to indent C preprocessor directives starting with #
 vim.cmd("syntax on")                    -- Enable syntax highlighting 
 vim.cmd("filetype plugin indent on")
 
